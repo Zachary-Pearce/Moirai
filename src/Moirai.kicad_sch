@@ -2968,6 +2968,8 @@
 						(justify left bottom)
 					)
 				)
+			)
+			(symbol "IPP80P03P4L-04_1_0"
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 2.54)
@@ -2978,7 +2980,7 @@
 							)
 						)
 					)
-					(number "P1"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2996,7 +2998,7 @@
 							)
 						)
 					)
-					(number "P3"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3014,7 +3016,7 @@
 							)
 						)
 					)
-					(number "P2"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -10517,13 +10519,13 @@
 				(hide yes)
 			)
 		)
-		(pin "P2"
+		(pin "3"
 			(uuid "9da5063e-d4a7-43e6-b3ab-e516d1318171")
 		)
-		(pin "P1"
+		(pin "1"
 			(uuid "704f31c3-4a7a-4645-ad06-3826bc794d74")
 		)
-		(pin "P3"
+		(pin "2"
 			(uuid "1d40fe90-80ce-4c44-870c-047e859026c7")
 		)
 		(instances
