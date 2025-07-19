@@ -1,5 +1,6 @@
 <p align="center">
 <img src="images/logo moirai clear.png" alt="Moirai Logo" style="display:block; width:400px; height:auto;">
+<br>
 <img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Contributor Covenant Badge">
 </p>
 
