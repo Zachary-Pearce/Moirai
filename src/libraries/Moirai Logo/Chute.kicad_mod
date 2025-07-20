@@ -1,0 +1,133 @@
+(footprint "Chute"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "51c43eb0-9a97-4069-8e22-ebd421be1567")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Chute"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "104a6868-d4b8-4409-88fa-97d1eba465fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "feee8768-841a-4a59-b7c9-d4ed5e5be341")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31feddcf-d248-480f-a106-9e6cceb47266")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "54ebca2f-49d9-435f-8274-8316de52c4d4")
+	)
+	(fp_line
+		(start 0 0)
+		(end -0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f6af43af-a976-413e-b379-991c52067c4b")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d66563e0-19b6-4b0e-bf37-16786e86ec75")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11f363d9-7a0c-4cef-a81f-2fd969c9058e")
+	)
+	(fp_arc
+		(start -0.5 -0.5)
+		(mid -0.25 -0.603553)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "54635064-a1eb-4d6f-86b8-fe07f0ec00f7")
+	)
+	(fp_arc
+		(start -0.5 -0.5)
+		(mid 0 -1)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ef14b0d-f20b-4696-999c-8ac7ccf57336")
+	)
+	(fp_arc
+		(start 0 -0.5)
+		(mid 0.25 -0.603553)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74e64a78-6ff3-4fde-a488-51ed4667656a")
+	)
+	(embedded_fonts no)
+)

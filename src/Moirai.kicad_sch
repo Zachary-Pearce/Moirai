@@ -2002,6 +2002,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -4769,16 +4911,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 179.07) (xy 137.16 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06146489-c70d-47b1-a29e-8b59d9cb6497")
-	)
-	(wire
-		(pts
 			(xy 73.66 38.1) (xy 87.63 38.1)
 		)
 		(stroke
@@ -4899,6 +5031,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 179.07) (xy 137.16 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19362f14-a8b8-4663-8a4f-8ad18f149a94")
+	)
+	(wire
+		(pts
 			(xy 210.82 142.24) (xy 210.82 143.51)
 		)
 		(stroke
@@ -4926,16 +5068,6 @@
 			(type default)
 		)
 		(uuid "1abfa3b7-fb0a-40df-83cf-da2897744784")
-	)
-	(wire
-		(pts
-			(xy 139.7 179.07) (xy 137.16 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b04daf1-797f-4146-8cee-9bd5eb39822a")
 	)
 	(wire
 		(pts
@@ -5949,16 +6081,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 181.61) (xy 137.16 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98e38229-84fe-44e8-afdc-3ab9132abd47")
-	)
-	(wire
-		(pts
 			(xy 53.34 87.63) (xy 53.34 92.71)
 		)
 		(stroke
@@ -6119,13 +6241,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 181.61) (xy 137.16 184.15)
+			(xy 137.16 184.15) (xy 137.16 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bafa7376-5dda-4c0e-93d5-8a2e2a4f047b")
+		(uuid "bdddda6e-a753-47a5-b008-948ec87ccfc9")
 	)
 	(wire
 		(pts
@@ -6136,6 +6258,16 @@
 			(type default)
 		)
 		(uuid "be538ae7-69f9-4e67-b115-ebb9ddb30785")
+	)
+	(wire
+		(pts
+			(xy 139.7 179.07) (xy 137.16 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf789e86-03e6-4443-a0e3-ad5c177aef6b")
 	)
 	(wire
 		(pts
@@ -6396,6 +6528,16 @@
 			(type default)
 		)
 		(uuid "e71bd045-1d12-40c5-83cd-80a0eb2b9e2e")
+	)
+	(wire
+		(pts
+			(xy 137.16 181.61) (xy 139.7 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ac49ca-f20f-4e55-abb1-4b25ef75b4d3")
 	)
 	(wire
 		(pts
@@ -14684,17 +14826,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 144.78 179.07 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 144.78 181.61 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f52da15c-311c-4815-9b38-36c76735dc22")
+		(uuid "f6974d90-bc3c-4351-8b9d-94060e69fece")
 		(property "Reference" "J1"
-			(at 147.32 179.0699 0)
+			(at 147.32 181.6101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14702,8 +14844,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 147.32 181.6099 0)
+		(property "Value" "Conn_01x02"
+			(at 147.32 179.0701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14711,8 +14853,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree"
-			(at 144.78 179.07 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 144.78 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14721,7 +14863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 179.07 0)
+			(at 144.78 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14729,8 +14871,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 179.07 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 144.78 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14739,10 +14881,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d23a1a1b-5c6a-4d17-90b8-8e7818a379c9")
+			(uuid "2f7051ea-cf27-476d-a4fd-260edf8ee9da")
 		)
 		(pin "2"
-			(uuid "bdd4b3ec-1b19-4930-85ad-22b08e453247")
+			(uuid "d54ffcc8-023a-4241-bdda-cddef799d01f")
 		)
 		(instances
 			(project ""

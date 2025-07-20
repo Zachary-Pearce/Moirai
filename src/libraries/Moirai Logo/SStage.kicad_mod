@@ -1,0 +1,147 @@
+(footprint "SStage"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d936f9e6-4874-4899-85f4-aafb015e6a8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SStage"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2275b05f-ea49-4c04-b280-439d91c3d074")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b94460bd-1f75-4964-b5ef-ce1b198964c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "219745d9-9f13-449b-855f-50599138aae0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.25 0)
+		(end -0.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e905a515-4b46-44cc-98eb-ddbb1be063ce")
+	)
+	(fp_line
+		(start -0.25 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "284a2d77-6043-4cc0-9699-9fbe82b7d2e6")
+	)
+	(fp_line
+		(start 0.25 0)
+		(end 0.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e590139-4ba4-4a88-a9b2-dfe939db28bf")
+	)
+	(fp_poly
+		(pts
+			(xy -0.25 -0.1) (xy -0.25 -0.375) (xy -0.5 -0.2) (xy -0.5 -0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "74b13daa-fcbf-45b9-8d6a-49468d2bb353")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 -0.1) (xy 0.25 -0.1) (xy 0.25 -0.375) (xy 0.5 -0.2)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2d67ebab-21fd-432a-ba1d-b2b8ca58fcc8")
+	)
+	(fp_curve
+		(pts
+			(xy -0.25 -0.5) (xy -0.25 -0.75) (xy 0 -1) (xy 0 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df71b689-9828-4237-a506-908bbf1cfefa")
+	)
+	(fp_curve
+		(pts
+			(xy 0 -1) (xy 0 -1) (xy 0 -1) (xy 0 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3968917-bf9a-4aad-996d-742dc10cdf57")
+	)
+	(fp_curve
+		(pts
+			(xy 0.25 -0.5) (xy 0.25 -0.75) (xy 0 -1) (xy 0 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28d7d0da-10ed-4fec-a49f-7494e6d6682d")
+	)
+	(embedded_fonts no)
+)

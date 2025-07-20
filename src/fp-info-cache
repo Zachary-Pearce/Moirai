@@ -1,4 +1,4 @@
-25611776400000284
+25615282467760975
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68193,6 +68193,20 @@ module pcb
 0
 7
 7
+Moirai Logo
+Chute
+
+
+0
+0
+0
+Moirai Logo
+SStage
+
+
+0
+0
+0
 Moirai Logo
 moirai_logo_large
 
